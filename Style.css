@@ -159,6 +159,10 @@ h2 {
     transition: all 0.3s ease;
 }
 
+.service-box img{
+    height: 200px;
+    width: auto;
+}
 /* Hover effect to slightly enlarge the box */
 .service-box:hover {
     transform: scale(1.05);
