@@ -54,20 +54,22 @@ nav {
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
     nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        text-align: center;
-        display: none; /* Hide menu by default */
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
+        flex-direction: column;  /* Stack the items vertically */
+        padding: 20px;  /* Add some padding for mobile */
+      }
+    
+      nav a {
+        font-size: 14px;  /* Smaller font size for mobile */
+        padding: 10px 0;  /* Adjust padding to give space between links */
+      }
+    
+      nav img {
+        width: 25px;  /* Shrink icons */
+      }
+    
+      nav .logo-anchor img {
+        width: 50px;  /* Smaller logo on mobile */
+      }
     .services {
         grid-template-columns: 1fr;
     }
