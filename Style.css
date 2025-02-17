@@ -283,14 +283,60 @@ h3 {
 
 /* Responsive design for smaller screens (tablet and mobile) */
 @media (max-width: 768px) {
-    .services {
+    /* Adjusting the navigation to stack vertically */
+    nav {
         flex-direction: column;
         align-items: center;
+        height: auto;
+    }
+
+    nav a {
+        font-size: 16px; /* Slightly larger text for easier tapping */
+        margin-bottom: 10px; /* Add some space between links */
+    }
+
+    /* Adjusting the service boxes layout */
+    .services {
+        flex-direction: column;
+        align-items: center; /* Center the items */
+        padding: 0 20px; /* Adding some padding around */
     }
 
     .service-box {
-        width: 90%; /* Adjust width for smaller screens */
-        margin-bottom: 20px;
+        width: 90%; /* Adjust width to take up more space */
+        margin-bottom: 20px; /* Space between items */
+    }
+
+    /* Adjusting the hero text font size */
+    .hero-text {
+        font-size: 2em; /* Smaller font for hero text */
+    }
+
+    /* Adjusting the image in the hero section */
+    .hero img {
+        width: 100%; /* Ensure the image fits in the container */
+    }
+
+    /* Adjusting the footer */
+    footer {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    /* Reviews section adjustments */
+    #reviews {
+        padding: 30px; /* Reduce padding */
+        width: 90%; /* Use more space */
+    }
+
+    /* Contact section adjustments */
+    #contact {
+        padding: 30px; /* Less padding on small screens */
+        width: 90%; /* More width usage */
+    }
+
+    /* Services section heading */
+    h2 {
+        font-size: 1.8em; /* Slightly smaller heading */
     }
 }
 .section {
