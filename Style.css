@@ -294,6 +294,11 @@ h3 {
         font-size: 16px; /* Slightly larger text for easier tapping */
         margin-bottom: 10px; /* Add some space between links */
     }
+    nav img {
+        height:50%; /* Slightly larger text for easier tapping */
+        width: auto; /* Add some space between links */
+    }
+        
 
     /* Adjusting the service boxes layout */
     .services {
