@@ -295,8 +295,8 @@ h3 {
         margin-bottom: 10px; /* Add some space between links */
     }
     nav img {
-        height:50%; /* Slightly larger text for easier tapping */
-        width: auto; /* Add some space between links */
+        transform: scale(2.8); /* Slightly larger text for easier tapping */
+        /* Add some space between links */
     }
         
 
